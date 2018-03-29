@@ -75,3 +75,22 @@ fields:
   type: text
   hidden: true
   default: home
+- type: textarea
+- type: boolean
+  default: false
+  label: test
+  name: test
+- type: select
+  name: select_value
+  config:
+    source:
+      type: simple
+    options:
+    - add1
+    - add2
+    - add3
+  label: select value
+- type: list
+  default:
+  - dummy
+  - test
